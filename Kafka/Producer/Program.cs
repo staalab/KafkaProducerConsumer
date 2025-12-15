@@ -11,11 +11,12 @@ public class Program
         using var producer = new ProducerBuilder<Null, string>(producerConfig).Build();
         var message = new Message<Null, string> { Value = "Hello Kafka from .NET!" };
         var n = 0;
-        while (n<10)
+        while (true)
         {
-            n += 1;
+            //n += 1;
             var deliveryReport = await producer.ProduceAsync(topicName, message);
             Console.WriteLine($"Delivered '{deliveryReport.Value}' to '{deliveryReport.TopicPartitionOffset}'");
+            Thread.Sleep(10000);
         }
     }
 }

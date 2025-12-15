@@ -9,7 +9,7 @@
 /Kafka/.idea/.idea.Kafka/.idea/indexLayout.xml
 /Kafka/.idea/.idea.Solution1/.idea/indexLayout.xml
 /Kafka/Kafka.sln
-/Kafka/Producer/Producer/obj/Debug/net9.0/Producer.AssemblyInfo.cs
+/Kafka/Producer/Producer/obj/*.*
 /Kafka/Producer/Producer/obj/Debug/net9.0/Producer.AssemblyInfoInputs.cache
 /Kafka/Producer/Producer/obj/Debug/net9.0/Producer.assets.cache
 /Kafka/Producer/Producer/obj/Producer.csproj.nuget.dgspec.json

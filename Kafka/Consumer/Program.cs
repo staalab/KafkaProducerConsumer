@@ -7,8 +7,8 @@
     {
         public static async Task Main(string[] args)
         {
-            string bootstrapServers = "localhost:9092"; // Your local Kafka broker address
-            string topicName = "my-topic";
+            var bootstrapServers = "localhost:9092"; // Your local Kafka broker address
+            var topicName = "my-topic";
 
             // Consumer example
             var consumerConfig = new ConsumerConfig

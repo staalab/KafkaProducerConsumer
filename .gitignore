@@ -1,26 +1,48 @@
-﻿/Kafka/Producer/Producer/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
-/.idea/aws.xml
-/Kafka/.idea/.idea.Kafka/.idea/aws.xml
-/Kafka/.idea/.idea.Solution1/.idea/aws.xml
-/.idea/encodings.xml
-/Kafka/.idea/.idea.Kafka/.idea/encodings.xml
-/Kafka/.idea/.idea.Solution1/.idea/encodings.xml
-/.idea/indexLayout.xml
-/Kafka/.idea/.idea.Kafka/.idea/indexLayout.xml
-/Kafka/.idea/.idea.Solution1/.idea/indexLayout.xml
-/Kafka/Kafka.sln
-/Kafka/Producer/Producer/obj/*.*
-/Kafka/Producer/Producer/obj/Debug/net9.0/Producer.AssemblyInfoInputs.cache
-/Kafka/Producer/Producer/obj/Debug/net9.0/Producer.assets.cache
-/Kafka/Producer/Producer/obj/Producer.csproj.nuget.dgspec.json
-/Kafka/Producer/Producer/obj/Producer.csproj.nuget.g.props
-/Kafka/Producer/Producer/obj/Producer.csproj.nuget.g.targets
-/Kafka/Producer/Producer/obj/Debug/net9.0/Producer.GeneratedMSBuildEditorConfig.editorconfig
-/Kafka/Producer/Producer/obj/Debug/net9.0/Producer.GlobalUsings.g.cs
-/Kafka/Producer/Producer/obj/project.nuget.cache
-/Kafka/Producer/Producer/obj/project.packagespec.json
-/Kafka/Producer/Producer/obj/rider.project.restore.info
-/.idea/vcs.xml
-/Kafka/.idea/.idea.Kafka/.idea/vcs.xml
-/Kafka/.idea/.idea.Solution1/.idea/vcs.xml
-/Solution1/.idea/.idea.Solution1/.idea/workspace.xml
+﻿# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+
+# dotenv environment variables file
+.env
+
+# Others
+~$*
+*~
+CodeCoverage/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
